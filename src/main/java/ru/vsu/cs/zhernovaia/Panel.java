@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 class Panel extends JPanel {
-    DrawContext context = new DrawContext(0, 10, 5);
+    DrawContext context = new DrawContext(90, 270, 5);
 
     @Override
     protected void paintComponent(Graphics g) {
